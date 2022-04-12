@@ -31,3 +31,15 @@ button:hover {
   background-color: goldenrod;
   color: white;
 }
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  color: white;
+  font-size: larger;
+  height: 40px;
+  background-color: rgb(128, 0, 53);
+  width: 0%;
+}
