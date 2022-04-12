@@ -11,6 +11,6 @@ function luckyNumbers(min, max, count) {
     str.push(result);
   }
   output.innerHTML = `Вашите числа за ТОТО ${count} / ${max} са: ${str.join(
-    " - "
+    " , "
   )} `;
 }

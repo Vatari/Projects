@@ -13,10 +13,11 @@ output {
 }
 
 #output {
-  color: rgb(240, 134, 14);
+  color: rgb(177, 98, 8);
   font-size: x-large;
   text-align: center;
   padding-top: 5%;
+  font-weight: bold;
 }
 button {
   display: inline-block;
