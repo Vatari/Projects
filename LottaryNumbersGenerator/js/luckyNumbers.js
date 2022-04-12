@@ -1,7 +1,4 @@
 function luckyNumbers(min, max, count) {
-  let original = max;
-  min = Math.ceil(min);
-  max = Math.floor(max);
   str = [];
   result = 0;
   let output = document.getElementById("output");
