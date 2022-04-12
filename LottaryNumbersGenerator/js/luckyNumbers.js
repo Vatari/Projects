@@ -7,7 +7,6 @@ function luckyNumbers(min, max, count) {
     result = Math.floor(Math.random() * (max - min + 1)) + min;
     str.push(result);
   }
-  output.innerHTML = `Вашите числа за ТОТО ${count} / ${max} са: ${str.join(
-    " , "
-  )} `;
+  output.innerHTML = `Вашите числа за ТОТО ${count} / ${max} са: 
+  ${str.join(" , ")} `;
 }
