@@ -16,4 +16,4 @@ function marginCalculator(stock, qty, buyPrice, sellPrice) {
   console.log(`${limitSellFee.toFixed(6)} $$$ -> deducted at 0.1%`);
   console.log(`Profit -> ${profit.toFixed(6)} $$$`);
 }
-marginCalculator("BAT", 400, 0.4016, 0.4035);
+marginCalculator("BAT", 390, 0.4011, 0.4050);
